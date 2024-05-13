@@ -1,0 +1,85 @@
+.department-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin-top: 1.5rem !important;
+}
+.doctor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 10px;
+    border-radius: 5px !important;
+    padding: 1.9rem !important;
+    height: auto;
+}
+.department-title {
+    font-weight: bold;
+    margin-top: 5rem !important;
+    font-size: 20px !important;
+    color: var(--primary-color-text);
+}
+.doctor img {
+    width: 171px;
+    height: 171px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 -.5px;
+}
+.doctor-name{
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    text-align: center;
+    margin-top: 1.2rem !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.doctor-department{
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    text-transform: capitalize;
+    color: var(--primary-color-text);
+}
+.view-profile-link{
+    text-decoration: none;
+    margin-top: 1.5rem !important;
+    color: rgb(36, 188, 238);
+}
+
+/* Department */
+#department-container{
+    margin-top: 2.5rem !important;
+}
+#department-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+#department-buttons button{
+    border: none !important;
+    border-radius: 5px;
+}
+
+/* Filter button */
+.active {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    color: #fff !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

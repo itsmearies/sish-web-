@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <!-- Compontents -->
+    <script src="./js/compontents.js"></script>
+    <link rel="stylesheet" href="./css/doctors.css">
+    <title>SISH - South Imus Specialist Hospital</title> 
+</head>
+<body>
+    <!-- Links -->
+    <div class="header-links"></div>
+
+    <!-- Navigation bar  -->
+    <div class="nav-bar"></div>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="doctors">
+                    <div class="doctors-text"><h1>Doctors</h1></div>
+                    <div  class="mt-4" id="department-buttons">
+                        <button class="department-button p-2 active" data-department="all">All</button>
+                        <button class="department-button p-2" data-department="cardiology">Cardiology</button>
+                        <button class="department-button p-2" data-department="neurology">Neurology</button>
+                        <button class="department-button p-2" data-department="orthopedics">Orthopedics</button>
+                        <button class="department-button p-2" data-department="radiology">Radiology</button>
+                    </div>
+                    <div id="department-container"></div>
+                </div> 
+            </div>
+        </div>
+         
+        <!-- Map -->
+        <div class="map"></div>
+        
+        <!-- Footer -->
+        <div class="footer"></div>
+        
+        <!-- Contact Us -->
+        <div class="contact-us"></div>
+    </div>
+   
+    <!-- Js -->
+    <script src="./js/doctors/doctors.js"></script>
+    <script src="./js/doctors/doctors-data.js"></script>
+</body>
+</html>

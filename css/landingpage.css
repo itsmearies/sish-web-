@@ -1,0 +1,185 @@
+/* Doctors */
+.doctors {
+    overflow: hidden; 
+    margin: 6rem 0 0 !important;
+}
+.doctors-content {
+    display: flex;
+    animation: scrolling 50s linear infinite;
+    gap: 1.5rem;
+}
+.doctor {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+    overflow: hidden;
+}
+.doctor img {
+    display: block;
+    width: 250px;
+}
+@keyframes scrolling {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-144vw); }
+}
+
+/* about */
+.about{
+    display: flex;
+    gap: 5.5rem;
+}
+.about-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    line-height: 1.9;
+}
+.about-text p{
+    color: var(--primary-color-text);
+}
+.about-text button, .about-chat button,
+.read-more-text button{
+    width: 250px;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    color: #fff !important;
+}
+.about-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.about-links-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.about-link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.about-link i{
+    font-size: 2rem !important;
+}
+
+/* Overview */
+/* News */
+#carousel-news, #carousel-events, #carousel-articles{
+    overflow: hidden;
+    height: 450px;
+}
+.about-news{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.about-overview-container{
+    display: flex;
+    gap: 1.5rem;
+    text-align: justify;
+    line-height: 1.9;
+}
+.about-video, .about-chat, .about-services, 
+.about-news, .about-events, .about-articles{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.text > *{
+    color: var(--primary-color-text);
+}
+.video-overview{
+    flex: 65%;
+    position: relative;
+    height: 360px;
+}
+.video-overview-text{
+    flex: 35%;
+}
+.video-overview iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Med */
+.med-chat-container, .services-container,
+.news-container, .read-more{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.med-section, .services-section{
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.med-section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 200px;
+    height: auto;
+}
+.med-section-video{
+    height: 200px;
+    background-color: var(--primary-color-text); 
+}
+.med-section-description{
+    font-size: 14px;
+}
+.about-chat button{
+    width: 100px;
+}
+
+/* Services */
+.services-section{
+    background-color: var(--primary-color-text);
+}
+.news-container > div{
+    flex: 1;
+}
+.about-news-text{
+    line-height: 1.9;
+}
+.about-news-img img, .read-more img{
+    width: 100%;
+    height: 450px;
+    background-color: var(--primary-color-text);
+}
+
+/* Articles */
+.news-title, .news-date{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.news-date{
+    display: flex;
+    align-items: center;
+    gap: .7rem;  
+}
+.news-date i{
+    font-size: 1.7rem !important;
+}
+
+/* Read more */
+.read-more > div{
+    flex: 1;
+}
+.read-more-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+
+
+

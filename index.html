@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <!-- Compontents -->
+    <script src="./js/compontents.js"></script>
+    <link rel="stylesheet" href="./css/landingpage.css">
+    <title>SISH - South Imus Specialist Hospital</title>
+</head>
+<body>
+    <!-- Links -->
+    <div class="header-links"></div>
+
+    <!-- Navigation bar  -->
+    <div class="nav-bar"></div>
+        
+    <!-- Banner -->
+    <div id="banner" class="carousel slide border" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+        </div>
+        
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./assets/images/banner.png" alt="Los Angeles" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/banner.png" alt="Chicago" class="d-block" style="width:100%">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/images/banner.png" alt="New York" class="d-block" style="width:100%">
+            </div>
+        </div>
+        
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Doctors  -->
+    <div class="doctors">
+        <div class="doctors-content"></div>
+    </div>
+   
+    <!-- Main Container -->
+    <div class="main-container">
+        <div class="container-wrapper">
+            <div class="container">
+                <!-- About -->
+                <div class="about">
+                    <div class="about-text">
+                        <h1>Find Your Doctor</h1>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, sunt! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, nobis!</p>
+                        <button class="p-2 border-0">Search Now</button>
+                    </div>
+                    <div class="about-links">
+                        <div class="about-links-container">
+                            <div class="about-link">
+                                <i class='bx bx-right-arrow-circle'></i>
+                                <h2>Be a Resident</h2>
+                            </div>
+                            <div class="about-link">
+                                <i class='bx bx-right-arrow-circle'></i>
+                                <h2>Be a Fellow</h2>
+                            </div>
+                            <div class="about-link">
+                                <i class='bx bx-right-arrow-circle'></i>
+                                <h2>Be a Medical Staff (Consultant)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Video -->
+                <div class="about-video">
+                    <h1>Our New Reality</h1>
+                    <div class="about-overview-container">
+                        <div class="video-overview">
+                            <iframe src="https://www.youtube.com/embed/FU9B3j_d3T4?si=aZkkaNSUu2zE_zxT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="video-overview-text text">
+                            <h1 class="mb-3">Overview</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores asperiores excepturi quo porro, unde ut veritatis ab consequuntur quos explicabo voluptatem deleniti tenetur beatae.</p>
+                        </div>
+                    </div> 
+                </div>
+        
+                <!-- Med Chat -->
+                <div class="about-chat">
+                    <h1>MedChat: Your Health Questions Answered</h1>
+                    <div class="med-chat-container">
+                        <div class="med-section">
+                            <div class="med-section-video"></div>
+                            <div class="med-section-description">
+                                MedChat - Most Common Heart Problems among Filipinos
+                            </div>
+                        </div>
+                        <div class="med-section">
+                            <div class="med-section-video"></div>
+                            <div class="med-section-description">
+                                MedChat: Liver Cancer
+                            </div>
+                        </div>
+                        <div class="med-section">
+                            <div class="med-section-video"></div>
+                            <div class="med-section-description">
+                                MedChat: Monkeypox
+                            </div>
+                        </div>
+                        <div class="med-section">
+                            <div class="med-section-video"></div>
+                            <div class="med-section-description">
+                                MedChat: Osteoarthritis of the Hip and Knee
+                            </div>
+                        </div>
+                    </div>
+                    <button class="p-2 border-0 mt-3">More</button>
+                </div>
+        
+                <!-- Services -->
+                <div class="about-services">
+                    <h1>Featured Services</h1>
+                    <div class="services-container">
+                        <div class="services-section border"></div>
+                        <div class="services-section border"></div>
+                        <div class="services-section border"></div>
+                        <div class="services-section border"></div>
+                    </div>
+                </div>
+        
+                <!-- News -->
+                <div class="about-news" id="about">
+                    <h1>News</h1>
+                    <!-- Banner -->
+                    <div id="carousel-news" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="news-container">
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health News</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="news-container">
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health News</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-news" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-news" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Events -->
+                <div class="about-events" id="about">
+                    <h1>Events</h1>
+                    <!-- Banner -->
+                    <div id="carousel-events" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="news-container">
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health Events</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="news-container">
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health Events</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-events" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-events" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Articles -->
+                <div class="about-articles" id="about">
+                    <h1>Health Articles</h1>
+                    <!-- Banner -->
+                    <div id="carousel-articles" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+                        
+                        <!-- The slideshow/carousel -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="news-container">
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health Articles</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="news-container">
+                                    <div class="about-news-img">
+                                        <img src="./assets/images/banner.png" alt="">
+                                    </div>
+                                    <div class="about-news-text text">
+                                        <div class="news-title"><h1>Health Articles</h1></div>
+                                        <div class="news-date pt-2"><i class='bx bx-calendar'></i> March 14, 2024</div>
+                                        <div class="my-3"><hr></div>
+                                        <div class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellendus dolorem consequuntur eos quae suscipit possimus magnam inventore quos incidunt!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Left and right controls/icons -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-articles" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-articles" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+        
+                <!-- Read More -->
+                <div class="read-more pt-4">
+                    <div class="read-more-text text">
+                        <h1>Tree of Hope</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum quae aperiam minima molestias corporis cumque, amet explicabo nobis provident libero repellat ratione! Aliquam facere provident corrupti soluta reiciendis, molestiae doloremque!</p>
+                        <button class="p-2 border-0">Search Now</button>
+                    </div>
+                    <div class="read-more-img">
+                        <img src="./assets/images/banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map -->
+        <div class="map"></div>
+
+        <!-- Footer -->
+        <div class="footer"></div>
+        
+        <!-- Contact Us -->
+        <div class="contact-us"></div>
+    </div>
+
+    <!-- Js -->
+    <script src="./js/image_marquee.js"></script>
+</body>
+</html>

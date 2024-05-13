@@ -1,0 +1,21 @@
+/* Map */
+.map{
+    margin-bottom: -2rem !important;
+}
+.map iframe{
+    height: 600px !important;
+}
+.map-head-text, .doctors-head-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    gap: 1rem;
+}
+.map-text{
+    text-align: center;
+    padding: 2rem 0 4rem !important;
+}
+.map-text p, .doctors p{
+    margin-top: 1.5rem !important;
+}
