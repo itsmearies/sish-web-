@@ -15,17 +15,21 @@
 #doctor-info{
     display: flex;
     align-items: center;
+    gap: 2rem;
+    flex-direction: column;
     margin-top: 4.5rem !important;
 }
 #doctor-info > div{
     flex: 1; 
-    /* border: 1px solid red; */
+    display: flex;
+  
+     /* border: 1px solid red;  */
 }
 #doctor-image{
     width: 350px;
     height: 330px;
     border-radius: 50%;
-    border: 10px solid #fff;
+    border: 20px solid #fff;
 }
 #doctor-name,  #doctor-id{
     font-size: 28px !important;
