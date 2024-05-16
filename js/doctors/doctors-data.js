@@ -1,7 +1,10 @@
 const doctors = [
-    { id: "1", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
-    { id: "2", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
-    { id: "3", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
+    { id: "1", name: "Dr. Cristina Magno", department: "pediatrics", image: "./assets/images/doctors/PEDIATRICS/Dr. Cristina Magno.jpg", schedule: "Thursday", time: "12nn-1pm", contact: "Look for Secretary"},
+
+    { id: "2", name: "Dr. Frederick Hipol", department: "orthopedics", image: "./assets/images/doctors/ORTHOPEDICS/Dr. Frederick Hipol.jpg", schedule: "Wednesday", time: "1pm-2pm", contact: "Look for Secretary May Ann 0998163 8330"},
+
+    { id: "3", name: "Dr. Relito Saquilayan", department: "cardiology", image: "./assets/images/doctors/OPHTHALMOLOGIST/Dr. Relito Saquilayan.jpg", schedule: "Monday, Thursday", time: "7-11am", contact: "0964 198 2283"},
+   
     { id: "4", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
     { id: "5", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
     { id: "6", name: "Doctor", department: "cardiology", image: "./assets/images/doctors/doctor.jpg", schedule: "Monday, Wednesday, Saturday", time: "7-11am", contact: "0964 198 2283"},
