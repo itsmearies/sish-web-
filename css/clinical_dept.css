@@ -1,0 +1,81 @@
+.clinical-dept-header{
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    color: #070606;
+}
+
+.clinical-dept-header label{
+    font-size: 1.25rem !important;
+}
+
+.clinical-dept-header a{
+    color: #41B06E;
+    padding: 5px !important;
+    text-decoration: none;
+}
+
+.clinical-dept-header a:hover{
+    text-decoration: underline;
+}
+
+.contents{
+    display: flex;
+}
+
+.department-list{
+    height: auto;
+    min-width: 300px;
+}
+
+.department-list ul li{
+    border: none;
+    color: #070606;
+    font-weight: 500;
+}
+
+.department-list ul a{
+    text-decoration: none;
+}
+
+.department-list li:hover{
+    cursor: pointer;
+    border-bottom: solid #41B06E 2px;
+    color: #41B06E;
+}
+
+.department-info{
+    padding: 2rem;
+}
+
+.dept-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.dept-logo img{
+    margin: 1.25rem;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid gray 5px;
+    object-fit: cover;
+}
+
+.displayed-img{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.displayed-img img{
+    height: 350px;
+    width: 700px;
+    border: solid black 1px;
+}
+
+.dept-details, .service-offered li{
+    color: #070606;
+    font-size: 1.25rem;
+}
