@@ -1,0 +1,72 @@
+.about-contents{
+    padding: 2% 10% !important;
+}
+
+.about-header{
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    color: #070606;
+}
+
+.about-header label{
+    font-size: 1.25rem;
+}
+
+.about-header a{
+    color: #41B06E;
+    padding: 5px !important;
+}
+
+.loc a{
+    text-decoration: none;
+    color: #41B06E;
+}
+
+.loc a:hover{
+    text-decoration: underline;
+    background-color: #cecece;
+}
+
+/*about contents*/
+
+.hospital-info, .hospital-mission, .hospital-vision, .hospital-history{
+    padding: 3.75rem 7rem !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-img{
+    display: flex;
+    justify-content: center;
+}
+
+.hospital-info img{
+    margin: 0.5rem !important;
+    height: 450px;
+    width: 750px;
+}
+
+.info-box{
+    padding: 1.5rem 1rem !important;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.hospital-mission img, .hospital-vision img{
+    width: 450px;
+    height: 300px;
+}
+
+.info-text h4{
+    padding: 0.5rem 0 !important;
+}
+
+.info-text2{
+    padding: 0 2.5rem !important;
+}
+
+.info-text2 p{
+    padding: 0.5rem !important;
+}

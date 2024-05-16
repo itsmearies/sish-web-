@@ -1,0 +1,65 @@
+.service-facilities-header{
+    width: 100%;
+    border-bottom: 1px solid #cecece;
+    color: #070606;
+}
+
+.service-facilities-header label{
+    font-size: 1.25rem !important;
+}
+
+.service-facilities-header a{
+    color: #41B06E;
+    padding: 5px !important;
+    text-decoration: none;
+}
+
+.service-facilities-header a:hover{
+    text-decoration: underline;
+}
+
+.contents{
+    display: flex;
+}
+
+.service-facilities-list{
+    height: auto;
+    min-width: 300px;
+}
+
+.service-facilities-list ul li{
+    border: none;
+    color: #070606;
+    font-weight: 500;
+}
+
+.service-facilities-list ul a{
+    text-decoration: none;
+}
+
+.service-facilities-list li:hover{
+    cursor: pointer;
+    border-bottom: solid #41B06E 2px;
+    color: #41B06E;
+}
+
+.service-facilities-info{
+    padding: 2rem;
+}
+
+.displayed-img{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.displayed-img img{
+    height: 350px;
+    width: 700px;
+    border: solid black 1px;
+}
+
+.service-details, .service-offered li{
+    color: #070606;
+    font-size: 1.25rem;
+}
