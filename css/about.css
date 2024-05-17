@@ -5,12 +5,17 @@
 }
 
 .about-header label{
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
 }
 
 .about-header a{
     color: #41B06E;
     padding: 5px !important;
+    text-decoration: none;
+}
+
+.about-header a:hover{
+    text-decoration: underline;
 }
 /*about contents*/
 

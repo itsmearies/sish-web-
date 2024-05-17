@@ -46,12 +46,12 @@
 
 .forms{
     display: flex;
-    gap: 1rem !important;
+    gap: .25rem !important;
 }
 
 .downloadable-file a{
-    padding: 0.25rem 1rem !important;
-    font-size: 1.25rem;
+    padding: 0.25rem !important;
+    font-size: 1rem;
     text-decoration: none;
     color: #070606;
 }
@@ -63,18 +63,18 @@
 .career-application{
     width: 100%;
     padding: 1.25rem 2rem !important;
-    justify-content: space-between;
+    justify-content: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 2;
 }
 
 .career-application-box{
-    margin: 1rem;
     display: flex;
     flex-direction: column;
-    padding: 1.25rem !important;
+    padding: 1rem !important;
     height: 300px;
-    width: 350px;
+    width: 450px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     box-shadow: #41B06E 3px 3px 1px;
