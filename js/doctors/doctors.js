@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const departmentButtons = document.querySelectorAll('.department-button');
 
     function displayAllDepartments() {
-        const allDepartments = ['cardiology', 'neurology', 'orthopedics', 'radiology'];
+        const allDepartments = ['internal medicine', 'obstetrics and gynecology', 'ophthalmologist', 'otyhopedics', 'pediaratics'];
         allDepartments.forEach(department => {
             const filteredDoctors = doctors.filter(doctor => doctor.department === department);
             const departmentDoctors = filteredDoctors.map(doctor => `
