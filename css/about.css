@@ -1,7 +1,3 @@
-.about-contents{
-    padding: 2% 10% !important;
-}
-
 .about-header{
     width: 100%;
     border-bottom: 1px solid #cecece;
@@ -16,21 +12,10 @@
     color: #41B06E;
     padding: 5px !important;
 }
-
-.loc a{
-    text-decoration: none;
-    color: #41B06E;
-}
-
-.loc a:hover{
-    text-decoration: underline;
-    background-color: #cecece;
-}
-
 /*about contents*/
 
 .hospital-info, .hospital-mission, .hospital-vision, .hospital-history{
-    padding: 3.75rem 7rem !important;
+    padding: 2rem 4rem !important;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -48,19 +33,19 @@
 }
 
 .info-box{
-    padding: 1.5rem 1rem !important;
+    padding: 1rem !important;
     display: flex;
     width: 100%;
     align-items: center;
 }
 
 .hospital-mission img, .hospital-vision img{
-    width: 450px;
-    height: 300px;
+    width: 375px;
+    height: 250px;
 }
 
-.info-text h4{
-    padding: 0.5rem 0 !important;
+.info-text h2{
+    padding: 1.5rem 0 !important;
 }
 
 .info-text2{
