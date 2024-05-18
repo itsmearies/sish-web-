@@ -11,7 +11,7 @@ const doctors = [
     { id: "7", name: "Dr. Cynthia Correo", department: "obstetrics and gynecology", image: "./assets/images/doctors/obstetrics_gynecology/Dr. Cynthia Correo.jpg", schedule: "Monday, Wednesday, Saturday", time: "10a, - 12pm", contact: "0905 563 4633"},
     
     // ophthalmologist
-    { id: "8", name: "Dr. Relito Saquilayan", department: "ophthalmologist", image: "./assets/images/doctors/ophthalmologist/Dr. Relito Saquilayan.jpg", schedule: "Monday, Thursday", time: "10am - 12pm", contact: "0950 264 6342"},
+    { id: "8", name: "Dr. Relito Saquilayan", department: "ophthalmologist", image: "./assets/images/doctors/opthalmologist/Dr. Relito Saquilayan.jpg", schedule: "Monday, Thursday", time: "10am - 12pm", contact: "0950 264 6342"},
 
     // otyhopedics
     { id: "9", name: "Dr. Frederick Hipol", department: "otyhopedics", image: "./assets/images/doctors/otyhopedics/Dr. Frederick Hipol.jpg", schedule: "Wednesday", time: "1pm - 2pm", contact: "0998163 8330"},
