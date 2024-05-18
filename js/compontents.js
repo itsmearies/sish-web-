@@ -19,6 +19,13 @@ fetch('./components/map.html')
     document.querySelector('.map').innerHTML = data;
   })
 
+// Email
+fetch('./components/email.html')
+  .then(response => response.text())
+  .then(data => {
+    document.querySelector('.email').innerHTML = data;
+  })
+
 // Footer
 fetch('./components/footer.html')
     .then(response => response.text())
