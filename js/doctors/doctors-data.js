@@ -19,5 +19,4 @@ const doctors = [
     // pediaratics
     { id: "10", name: "Dr. Cristina Magno", department: "pediaratics", image: "./assets/images/doctors/pediaratics/Dr. Cristina Magno.jpg", schedule: "Thursday,", time: "12pm - 1pm", contact: "0964 198 2283"},
     
-  
 ];
