@@ -22,8 +22,8 @@
     text-transform: capitalize;
 }
 .doctor img {
-    width: 171px;
-    height: 171px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     object-fit: cover;
     object-position: 0 -.5px;
