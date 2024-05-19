@@ -69,6 +69,12 @@
     overflow: hidden;
     height: 450px;
 }
+.news-content p{
+    text-align: justify;
+}
+.news-content ol li{
+    margin: 0 1rem !important;
+}
 .about-news{
     display: flex;
     flex-direction: column;
