@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         allDepartments.forEach(department => {
             const filteredDoctors = doctors.filter(doctor => doctor.department === department);
             const departmentDoctors = filteredDoctors.map(doctor => `
-                <div class="doctor">
+                <div class="doctor fade-in">
                     <img src="${doctor.image}" alt="${doctor.name}">
                     <span class="doctor-name">${doctor.name} ${doctor.id}</span>
                     <span class="doctor-department">Specialist: ${doctor.department}</span>
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             const filteredDoctors = doctors.filter(doctor => doctor.department === department);
             const departmentDoctors = filteredDoctors.map(doctor => `
-                <div class="doctor">
+                <div class="doctor fade-in">
                     <img src="${doctor.image}" alt="${doctor.name}">
                     <span class="doctor-name">${doctor.name} ${doctor.id}</span>
                     <span class="doctor-department">Specialist: ${doctor.department}</span>
@@ -64,13 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
             const doctorId = event.target.getAttribute('data-id');
             viewProfile(doctorId);
         }
-    });
-
-    departmentButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            const department = this.getAttribute('data-department');
-            filterDoctors(department);
-        });
     });
 
     displayAllDepartments(); // Initial display of all departments and doctors

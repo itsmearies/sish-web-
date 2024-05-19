@@ -72,6 +72,24 @@
     color: #fff !important; 
 }
 
+/* CSS for fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Ensure department-container starts empty */
+#department-container {
+    opacity: 1;
+}
+
+
 
 
 
