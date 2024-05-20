@@ -23,6 +23,8 @@
     gap: 1.5rem;
 }
 .nav-list a, button{
+    font-size: 1.25rem !important;
+    font-weight: 500;
     color: #000;
     cursor: pointer;
 }

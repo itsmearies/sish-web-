@@ -4,7 +4,8 @@
     box-sizing: border-box; 
 }
 :root{
-   --primary-color-text: rgb(111, 110, 110);
+   /*--primary-color-text: rgb(111, 110, 110);*/
+   --primary-color-text: #070606;
    --secondary-color-text: #000;
    --terinary-color-text: #96e6a1;
 }
