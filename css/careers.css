@@ -27,7 +27,7 @@
 
 .content-img img{
     height: 500px;
-    width: 700px;
+    width: 900px;
 }
 
 .dl-forms{
@@ -63,16 +63,16 @@
 .career-application{
     width: 100%;
     padding: 1.25rem 2rem !important;
+    display: flex;
     justify-content: center;
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2;
 }
 
 .career-application-box{
     display: flex;
     flex-direction: column;
     padding: 1rem !important;
+    margin: 1.25rem !important;
     height: 300px;
     width: 450px;
     border: 1px solid whitesmoke;
