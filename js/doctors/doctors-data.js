@@ -1,9 +1,12 @@
 const doctors = [
     // internal medicine
-    { id: "1", name: "Dr. Francisco Villanueva Jr", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Francisco Villanueva Jr.jpg", schedule: "Monday, Saturday", time: "10am - 12pm", contact: "0931 903 1209"},
-    { id: "2", name: "Dr. Gladys Maribal Diaz", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Gladys Maribal Diaz.jpg", schedule: "Tuesday", time: "1pm - 3pm", contact: "0963 712 5160"},
-    { id: "3", name: "Dr. Relito Saquilayan", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Maria Ailsa Escobin.jpg", schedule: "Monday, Thursday", time: "10am  - 12pm", contact: "0963 712 5160"},
-    { id: "4", name: "Dr. Michael Perez", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Michael Perez.jpg", schedule: "Tuesday, Thursday", time: "10am - 12pm", contact: "0931 903 1209"},
+    { id: "1", name: "Dr. Melvin Dalluay", department: "internal medicine", image: "./assets/images/doctors/unknown/DALLUAY ..jpg", schedule: "Tuesday, Thursday, Saturday", time: "3pm - 5pm", contact: "0917 503 5789"},
+    { id: "2", name: "Dr. Chito Abellar", department: "internal medicine", image: "./assets/images/doctors/unknown/ABELLAR ..jpg", schedule: "Monday, Wednesday", time: "12pm - 2pm", contact: "0908 815 8500"},
+    { id: "3", name: "Dr. Jan Gadih Espiritu", department: "internal medicine", image: "./assets/images/doctors/unknown/ESPIRITU ..jpg", schedule: "Tuesday, Thursday, Saturday", time: "1pm - 3pm", contact: "0917 621 0614"},
+    { id: "4", name: "Dr. Francisco Villanueva Jr", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Francisco Villanueva Jr.jpg", schedule: "Monday, Saturday", time: "10am - 12pm", contact: "0931 903 1209"},
+    { id: "5", name: "Dr. Gladys Maribal Diaz", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Gladys Maribal Diaz.jpg", schedule: "Tuesday", time: "1pm - 3pm", contact: "0963 712 5160"},
+    { id: "6", name: "Dr. Relito Saquilayan", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Maria Ailsa Escobin.jpg", schedule: "Monday, Thursday", time: "10am  - 12pm", contact: "0963 712 5160"},
+    { id: "7", name: "Dr. Michael Perez", department: "internal medicine", image: "./assets/images/doctors/internal_medicine/Dr. Michael Perez.jpg", schedule: "Tuesday, Thursday", time: "10am - 12pm", contact: "0931 903 1209"},
     
     // obstetrics and gynecology
     { id: "5", name: "Dr. Antoinette Añonuevo", department: "obstetrics and gynecology", image: "./assets/images/doctors/obstetrics_gynecology/Dr. Antoinette Añonuevo.jpg", schedule: "Wednesday, Saturday", time: "10am - 12pm", contact: "0905 563 4633"},
