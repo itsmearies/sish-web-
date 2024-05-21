@@ -10,12 +10,8 @@
     height: 115px;
     z-index: 200;
 }
-.nav-logo{
-    font-size: 24px;
-    font-weight: 700;
-}
 .nav-logo img{
-    max-width: 500px;
+    max-width: 520px;
     height: auto;
 }
 .nav-list{
@@ -23,9 +19,9 @@
     gap: 1.5rem;
 }
 .nav-list a, button{
-    font-size: 1.25rem !important;
+    font-size: 1.18rem !important;
     font-weight: 500;
-    color: #161616;
+    color: var(--primary-color-text);
     cursor: pointer;
 }
 .nav-list a{
