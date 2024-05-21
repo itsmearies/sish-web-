@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const departmentDoctors = filteredDoctors.map(doctor => `
                 <div class="doctor fade-in">
                     <img src="${doctor.image}" alt="${doctor.name}">
-                    <span class="doctor-name">${doctor.name} ${doctor.id}</span>
+                    <span class="doctor-name">${doctor.name}</span>
                     <span class="doctor-department">Specialist: ${doctor.department}</span>
                     <a href="#" class="view-profile-link" data-id="${doctor.id}">View Profile</a>
                 </div>`).join('');
