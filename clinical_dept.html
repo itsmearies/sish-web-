@@ -48,50 +48,22 @@
                 <div class="contents">
                     <!--List of all Clinical Departments-->
                     <div class="department-list">
-                        <ul class="list-group list-clinical-dept" id="list-clinical-dept">
-                            <a href="#"><li class="list-group-item" data-item="anesthesiology">Anesthesiology</li></a>
-                            <a><li class="list-group-item" data-item="dental-medicine">Dental Medicine</li></a>
-                            <a><li class="list-group-item" data-item="emergency-medicine">Emergency Medicine</li></a>
-                            <a><li class="list-group-item" data-item="internal-medicine">Internal Medicine</li></a>
-                            <a><li class="list-group-item" data-item="laboratory-medicine">Laboratory Medicine</li></a>
+                            <button class="department-navbtn active" data-item="Anesthesiology">Anesthesiology</button>
+                            <button class="department-navbtn" data-item="Dental Medicine">Dental Medicine</button>
+                            <button class="department-navbtn" data-item="Emergency Medicine">Emergency Medicine</button>
+                            <button class="department-navbtn" data-item="Internal Medicine">Internal Medicine</button>
+                            <button class="department-navbtn" data-item="Laboratory">Laboratory</button>
                             
-                            <a><li class="list-group-item" data-item="ophthalmology">Ophthalmology</li></a>
-                            <a><li class="list-group-item" data-item="orthopedics">Orthopedics</li></a>
-                            <a><li class="list-group-item" data-item="pediatrics">Pediatrics</li></a>
-                            <a><li class="list-group-item" data-item="psychiatry">Psychiatry</li></a>
-                            <a><li class="list-group-item" data-item="radiology">Radiology</li></a>
-                        </ul>
+                            <button class="department-navbtn" data-item="Ophthalmology">Ophthalmology</button>
+                            <button class="department-navbtn" data-item="Orthopedics">Orthopedics</button>
+                            <button class="department-navbtn" data-item="Pediatrics">Pediatrics</button>
+                            <button class="department-navbtn" data-item="Psychiatry">Psychiatry</button>
+                            <button class="department-navbtn" data-item="Radiology">Radiology</button>
                     </div>
 
                     <!--Displayed Information-->
-                    <div class="department-info">
-                        <div class="dept-logo">
-                            <img id="logo-img" src="./assets/images/flask.jpg" alt="logo_img">
-                            <h2>Department</h2>
-                        </div>
-
-                        <div class="displayed-img">
-                            <img id="content-img" src="./assets/images/medical-services.jpg" alt="content_img">
-                        </div>
-
-                        <div class="dept-details">
-                            <p id="info-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-                                culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-
-                        <div class="service-offered">
-                            <label class="fs-4 fw-bold">Services Offer:</label>
-                            <ul id="service-offered">
-                                <li>Service 1</li>
-                                <li>Service 2</li>
-                                <li>Service 3</li>
-                            </ul>
-                        </div>
+                    <div class="department-info" id="department-info">
+                        
                     </div>
                 </div>
             </div>
@@ -105,6 +77,8 @@
     <div class="contact-us"></div>
 
     <script src="./js/clinical-dept.js"></script>
+    <script src="./js/departments/departments.js"></script>
+    <script src="./js/departments/department-data.js"></script>
 </body>
 
 </html>
