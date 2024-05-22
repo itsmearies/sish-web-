@@ -27,24 +27,25 @@
     min-width: 300px;
 }
 
-.service-facilities-list ul li{
-    border: none;
-    color: #070606;
+.service-facilities-list button{
+    display: flex;
     font-weight: 500;
+    background-color: transparent;
+    padding: .25rem 1.75rem !important;
 }
 
-.service-facilities-list ul a{
-    text-decoration: none;
-}
-
-.service-facilities-list li:hover{
-    cursor: pointer;
-    border-bottom: solid #41B06E 2px;
-    color: #41B06E;
+.service-facilities-list button:hover{
+    background-image: linear-gradient(120deg, #e9fac1 0%, #d9fdb8 100%);
 }
 
 .service-facilities-info{
     padding: 2rem;
+}
+
+.dept-logo{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
 }
 
 .displayed-img{
@@ -62,4 +63,10 @@
 .service-details, .service-offered li{
     color: #070606;
     font-size: 1.25rem;
+}
+
+/* Filter button */
+.active {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    color: #fff !important; 
 }
